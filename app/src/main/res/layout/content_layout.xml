@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <import type="com.example.databinding.model.User"/>
+        <variable
+            name="myUser"
+            type="User" />
+    </data>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@{myUser.firstName}"
+        android:textSize="20dp"
+        android:textColor="@color/black">
+
+    </TextView>
+</layout>
